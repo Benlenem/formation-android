@@ -1,0 +1,134 @@
+[
+  {
+    "start": {
+      "name": "Leeds",
+      "latitude": 53.8060025,
+      "longitude": -1.5357323
+    },
+    "end": {
+      "name": "Harrogate",
+      "latitude": 53.9940165,
+      "longitude": -1.5289147
+    }
+  },
+  {
+    "start": {
+      "name": "York",
+      "latitude": 53.9585965,
+      "longitude": -1.0805916
+    },
+    "end": {
+      "name": "Sheffield",
+      "latitude": 53.3957166,
+      "longitude": -1.4994561
+    }
+  },
+  {
+    "start": {
+      "name": "Cambridge",
+      "latitude": 52.1988421,
+      "longitude": 0.1199872
+    },
+    "end": {
+      "name": "Londres",
+      "latitude": 51.5286416,
+      "longitude": -0.1015987
+    }
+  },
+  {
+    "start": {
+      "name": "Le Touquet-Paris-Plage",
+      "latitude": 50.5116115,
+      "longitude": 1.6053939
+    },
+    "end": {
+      "name": "Lille Métropole",
+      "latitude": 50.6310675,
+      "longitude": 3.0471604
+    }
+  },
+  {
+    "start": {
+      "name": "Ypres",
+      "latitude": 50.8660349,
+      "longitude": 2.8727751
+    },
+    "end": {
+      "name": "Arenberg Porte du Hainaut",
+      "latitude": 50.848752,
+      "longitude": 4.355348
+    }
+  },
+  {
+    "start": {
+      "name": "Arras",
+      "latitude": 50.1807427,
+      "longitude": 2.9269052
+    },
+    "end": {
+      "name": "Reims",
+      "latitude": 49.2535511,
+      "longitude": 4.0550886
+    }
+  },
+  {
+    "start": {
+      "name": "Épernay",
+      "latitude": 49.0391335,
+      "longitude": 3.9281905
+    },
+    "end": {
+      "name": "Nancy",
+      "latitude": 48.6880809,
+      "longitude": 6.173437
+    }
+  },
+  {
+    "start": {
+      "name": "Tomblaine",
+      "latitude": 48.6851279,
+      "longitude": 6.2212126
+    },
+    "end": {
+      "name": "Gérardmer La Mauselaine",
+      "latitude": 48.0576965,
+      "longitude": 6.89048
+    }
+  },
+  {
+    "start": {
+      "name": "Gérardmer",
+      "latitude": 48.0657715,
+      "longitude": 6.8531169
+    },
+    "end": {
+      "name": "Mulhouse",
+      "latitude": 47.752686,
+      "longitude": 7.3256245
+    }
+  },
+  {
+    "start": {
+      "name": "Mulhouse",
+      "latitude": 47.752686,
+      "longitude": 7.3256245
+    },
+    "end": {
+      "name": "La Planche des Belles Filles",
+      "latitude": 47.7745012,
+      "longitude": 6.7781719
+    }
+  },
+  {
+    "start": {
+      "name": "Besançon",
+      "latitude": 47.2602155,
+      "longitude": 6.0122684
+    },
+    "end": {
+      "name": "Oyonnax",
+      "latitude": 46.2599149,
+      "longitude": 5.651748
+    }
+  }
+]
