@@ -9,7 +9,7 @@ Nous allons réutiliser l'application créée au TP précédent (cartes) et y aj
 
 ##Initialisation
 
-1. Depuis Eclipse, copier ou reprenez le projet précédent
+1. Depuis Eclipse, copier ou reprendre le projet précédent
 
 ##Préparation de l'Activity principale
 - Dans l'Activity principale
