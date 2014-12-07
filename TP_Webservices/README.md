@@ -65,11 +65,13 @@ Cette approche peut être améliorée ! Quel est l'inconvénient majeur ?
 1. Créer une classe WebservicesApplication qui étend Application. Attention, il y a une subtilité pour faire marcher l'application !
 2. Créer une classe GithubApiManager pour encapsuler l'interface Retrofit
 3. Stocker une instance de GithubApiManager dans l'application
-4. Depuis l'activity, effectuer récupérer GithubApiManager et effectuer l'appel réseau
+4. Depuis l'activity, récupérer GithubApiManager et effectuer l'appel réseau
 
 Cette approche peut encore être améliorée ! Quel est l'inconvénient majeur ?
 
-##Appels réseau avec Retrofit, partie 3 (bus de données)
+##Pour aller plus loin
+
+###Appels réseau avec Retrofit, partie 3 (bus de données)
 
 1. Récupérer la lib EventBus (http://search.maven.org/#artifactdetails%7Cde.greenrobot%7Ceventbus%7C2.4.0%7Cjar)
 2. Créer une classe pour chacun des évènements suivants :
@@ -79,6 +81,4 @@ Cette approche peut encore être améliorée ! Quel est l'inconvénient majeur ?
   - au GithubApiManager pour télécharger la liste des Repository à la demande
   - à l'Activity pour demander la liste des Repository
 4. N'oubliez pas de vous enregistrer et dé-enregistrer des évènements lorsque cela n'est plus nécessaire
-
-##Pour aller plus loin
 

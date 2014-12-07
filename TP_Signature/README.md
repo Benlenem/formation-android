@@ -57,5 +57,8 @@ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore NOM_KEYSTORE.ke
 jarsigner -verify -verbose -certs MON_APPLICATION.apk - keystore NOM_KEYSTORE.keystore
 ```
 
+##Pour aller plus loin : zipalign
+Zip-aligner le fichier avec la commande zipalign
+
 ##Pour aller plus loin : avec Android Studio
 - Suivre les instructions fournies à cette adresse : http://developer.android.com/tools/publishing/app-signing.html#studio
