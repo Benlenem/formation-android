@@ -10,7 +10,6 @@ Nous allons voir comment générer et utiliser un keystore.
 ```
 C:\Program Files\<"Emplacement JDK">\<"Version du JDK">\bin
 ```
-- Récupérer le fichier MyApp.apk <a href="./MyApp.apk">suivant</a>. Il est non signé, non zip-aligné.
 
 ##Avec Eclipse
 
@@ -45,16 +44,17 @@ keytool -genkey -v -keystore NOM_KEYSTORE.keystore -alias NOM_ALIAS -keyalg RSA 
 
 ###Signer l'application
 
+- Récupérer le fichier MyApp.apk <a href="./MyApp.apk">suivant</a>. Il est non signé, non zip-aligné.
 - Exécuter la commande sur le fichier .apk récupéré.
 ```
-jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore NOM_KEYSTORE.keystore MON_APPLICATION.apk NOM_ALIAS
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore NOM_KEYSTORE.keystore MyApp.apk NOM_ALIAS
 ```
 
 ###Vérifier la signature
 
 - Exécuter la commande sur le fichier .apk signé
 ```
-jarsigner -verify -verbose -certs MON_APPLICATION.apk - keystore NOM_KEYSTORE.keystore
+jarsigner -verify -verbose -certs MyApp.apk -keystore NOM_KEYSTORE.keystore
 ```
 
 ##Pour aller plus loin : zipalign
