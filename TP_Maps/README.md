@@ -27,7 +27,7 @@ Note : les instructions que nous allons suivre sont toutes détaillées dans la 
     android:name="com.google.android.maps.v2.API_KEY"
     android:value="AIzaSyB8T3XqnVbVm5Ne9rAOIBb0Vc_7dIva2fA" />
 ```
-4. Dans le layout de la page, ajouter un MapFrament
+4. Dans le layout de la page, ajouter un SupportMapFragment
 5. Lancer l'application
 6. Prier pour que la carte s'affiche après toute cette configuration !
 
