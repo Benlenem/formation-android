@@ -10,7 +10,7 @@ Dans ce TP, nous allons voir les possibilités qu'offre Android en terme de cart
 
 Note : les instructions que nous allons suivre sont toutes détaillées dans la documentation officielle <a href="http://developer.android.com/google/play-services/setup.html">ici</a>, et <a href="https://developers.google.com/maps/documentation/android/start#installing_the_google_maps_android_v2_api">ici</a>
 
-1. Créer un nouveau projet Android avec une Activity. Le package name doit <b>absolument</b> être `com.cleverage.formation.maps`
+1. Créer un nouveau projet Android avec une Activity. Le package name doit <b>absolument</b> être `fr.cleverage.formation.maps`
 2. Importer le projet google-play-services_lib qui se trouve dans votre SDK (extras/google/google_play_services/libproject/google-play-services_lib)
 3. L'inclure comme bibliothèque utilisée par le projet
 4. Configurer Eclipse pour utiliser le keystore de debug <a href="./maps_debug.keystore">suivant</a>.
